@@ -1,0 +1,60 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.player{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.player > img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.player > .playerText > h1{
+    margin-top: 10px;
+}
+.gamesContainer{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+}
+.gamesContainer>.game {
+    width: 400px;
+    min-height: 523.8px;
+    border: 2px solid rgb(120, 120, 120);
+    border-radius: 10px;
+    margin: 10px;
+}
+.gamesContainer > .game > .img {
+    
+    height: 150px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.gamesContainer > .game > .title{
+    display: flex;
+}
+.gamesContainer > .game > .title > img{
+    max-width: 200px;
+    max-height: 100px;
+}
+.gamesContainer>.game>.title> .text >h2{
+    margin-top: 10px;
+}
+.gamesContainer>.game>.trophies> span{
+    margin-left: 10px;
+}
+.gamesContainer>.game>.trophies>.trophiesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gamesContainer>.game>.trophies>.trophiesContainer > img{
+    width: 50px; 
+    padding: 17px 25px;
+}
